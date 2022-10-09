@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/logo.jpg" type="image/x-icon">
+    <title>Mini Cety Restaurant | Booking</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/booking.css">
+    <link rel="stylesheet" href="./styles/common.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./assets/logo.jpg" class="logo" />
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="/menu.html">Menu</a></li>
+                <li><a href="#">Booking</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="title">
+        <div class="overlay"></div>
+        <div class="title-container">
+            <p class="title">
+                Mini Cety Restaurant,
+                Bangalore
+            </p>
+            <p class="subtitle">BTM,2nd Stage.</p>
+        </div>
+    </div>
+
+        <div class="Booking">
+            <div class="section-title">Booking</div>
+            <div class="content">
+                <div class="desc">
+                    Invest in a lifetime of wonderful holiday memories.
+                </div>
+                <div class="form">
+                    <input type="text" name="name" id="name" placeholder="Name" /><br>
+                    <input type="tel" name="mobile" id="mobile" placeholder="Mobile Number" maxlength="10" /><br>
+                    <input type="email" name="email" id="email" placeholder="Email" /><br>
+                    <input type="text" name="city" id="city" placeholder="City" /><br>
+                    <input type="number" name="age" id="age" placeholder="Age" /><br>
+                    <select name="Table Type" id="tableType" required>
+                        <option selected disabled>Choose Table Type</option>
+                        <option value="small">Small(2 persons)</option>
+                        <option value="medium">Small(4 persons)</option>
+                        <option value="large">large(6 persons)</option>
+                    </select>
+                    <select name="Table Type" id="tableType" required>
+                        <option selected disabled>Choose Placement</option>
+                        <option value="small">Outdoor</option>
+                        <option value="medium">Indoor</option>
+                        <option value="large">Rooftop</option>
+                    </select>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="Date" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="time">time</label>
+                        <input type="time" id="time" name="Time" required>
+                      </div>
+                    <div class="permit">
+                        <input type="checkbox" />
+                        <label>I permit Mini Cety Restaurant to contact me using the information provided above by me.</label>
+                    </div>
+                    <div class="btn-container">
+                        <input type="submit" class="submit-btn" value="submit" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="./menu.html">Menu</menu></a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./booking.html">Booking</a></li>
+                     <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Support Center</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"><img src="./assets/fb.png" alt=""></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i><img src="./assets/twiter.png" alt=""></a>
+                        <a href="#"><i class="fab fa-instagram"><img src="./assets/insta.jpg" alt=""></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"><img src="./assets/li.png" alt=""></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+</body>
+</html>

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+.section-title{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+.desc{
+text-align: center;
+padding: 20px 20px 0 20px;
+}
+.desc h2{
+    text-align: center;
+}
+.dega{
+padding-left: 212px;
+}
+.about {
+    background: color #f1f1f1;
+    padding-top: 30px;
+}
+
+.about-container {
+    display: flex;
+    margin-top: 1rem;
+    animation-duration: inherit;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.about-type {
+    position: relative;
+    margin-right: 1rem;
+    width: 50%;
+    height: 60vh;
+    background-size: cover;
+}
+
+.about-type:last-child {
+    margin-right: 0;
+}
+
+.about-type p {
+    color: rgb(250, 244, 244);
+    font-size: 18px;
+    position: absolute;
+    z-index: 99;
+    bottom: 1rem;
+    left: 8px;
+}
+
+.room-type:nth-child(1) { background-image: url('/assets/ourStoryImg.png'); }

@@ -1,0 +1,38 @@
+.type textarea{
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+
+}
+.contact-title h2{
+    text-align: center;
+}
+.form{
+    padding: 0 20px 0 20px;
+}
+.contact-title{
+    padding:8vh 0 20px 35vh;
+    font-size: 25px;
+    color: #cb1369;
+}
+.type label{
+color: #cb1369;
+font-size: 40px;
+}
+.form.name{
+    border-radius: 20px;
+    padding-top: 20px;
+}
+input {
+    text-align: center;
+    margin-bottom: 1.0rem;
+    height: 1rem;
+    padding: 15px;
+    border-radius: 8px;
+    outline: none;
+}
+.about-container{
+    text-align: center;
+    padding-right: 33vh;
+    padding-bottom: 10vh;
+}
+
